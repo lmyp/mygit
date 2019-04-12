@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>掘金点赞 取消点赞</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" data-flag='false'>
+            <img class="icon" src="https://b-gold-cdn.xitu.io/v3/static/img/zan.e9d7698.svg" alt="">
+            <span class="count ">99</span>
+        </div>
+        <div class="item" data-flag='false'>
+            <img class="icon" src="https://b-gold-cdn.xitu.io/v3/static/img/zan.e9d7698.svg" alt="">
+            <span class="count ">999</span>
+        </div>
+        <div class="item" data-flag='false'>
+            <img class="icon" src="https://b-gold-cdn.xitu.io/v3/static/img/zan.e9d7698.svg" alt="">
+            <span class="count ">9999</span>
+        </div>
+    </div>
+    <script>
+        const items = document.querySelectorAll('.item');
+        const like = 'https://b-gold-cdn.xitu.io/v3/static/img/zan-active.930baa2.svg';
+        const dislike = 'https://b-gold-cdn.xitu.io/v3/static/img/zan.e9d7698.svg';
+        // 默认是未点赞时候的状态
+        
+        for (let i = 0; i < items.length; i++) {
+            items[i].addEventListener('click', () => {
+                // document.querySelector  node.querySelector
+                let flag = items[i].dataset.flag;
+                // flag=Boolean(flag);
+                const icon = items[i].querySelector('.icon');
+                // const ime=items[i].querySelector('img');
+                const count = items[i].querySelector('.count');
+                // let 定义常量 const 局部变量 会报错
+                let countNum = count.innerHTML;//count.innerText;
+                countNum = parseInt(countNum);
+                if (flag === 'true') {
+                    icon.src = dislike;
+                    countNum -= 1;
+                    flag = 'false';
+                    // count.classList.remove('active');
+                } else {
+                    icon.src = like;
+                    countNum += 1;//字符串 转为整型
+                    flag = 'true';
+                    //  count.classList.add('active');
+                }
+                count.classList.toggle('active');
+                count.innerHTML = countNum;
+                // flag = !flag;
+                items[i].dataset.flag = flag;
+            })
+        }
+    </script>
+</body>
+
+</html>
