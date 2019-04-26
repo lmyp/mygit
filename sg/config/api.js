@@ -1,0 +1,5 @@
+export const API_BASE = 'https://www.easy-mock.com/mock/5cbeb43b3c65af2ab66ab0fe/dsdfb/sg'
+export const API_DETAIL = 'https://www.easy-mock.com/mock/5cc281b94a68d95276f5895c/wenzhang/wenzhang'
+export const API_CREATE = 'https://www.easy-mock.com/mock/5af03ac5957fd4308a30b9c0/api/create#!method=get'
+export const API_DELETE_IMG = 'https://www.easy-mock.com/mock/5af03ac5957fd4308a30b9c0/api/delete_img#!method=delete'
+export const API_LOGIN = 'https://www.easy-mock.com/mock/5af03ac5957fd4308a30b9c0/api/login#!method=post'
