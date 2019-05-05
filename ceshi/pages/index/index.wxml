@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true" upper-threshold="20" bindscrolltoupper="scrolltoupperFun"
+  lower-threshold="30" bindscrolltoupper="scrolltolowerFun" scroll-into-view="v1" style="height: 600rpx" >
+   <view id="v1" style="height: 300rpx; text-align:center; background-color:yellow ">这里是视图1</view>
+   <view id="v2" style="height: 500rpx; text-align:center; background-color:green ">这里是视图2</view>
+   <view id="v3" style="height: 600rpx; text-align:center; background-color:blue ">这里是视图3</view>
+
+  </scroll-view>
+</view>
