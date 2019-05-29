@@ -1,0 +1,10 @@
+<block wx:for="{{dataList}}" wx:key="item">
+ <view class='item-container'>
+  <!--这里只是为了展示序列号  -->
+  <text>{{item.id}}</text>
+  <!--这里展示标题 -->
+  <text class='item-title'> {{item.title}} </text>
+  <!--这里展示时间 -->
+  <text class='item-time'> {{item.time}} </text>
+ </view>
+</block>
