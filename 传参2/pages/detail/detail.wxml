@@ -1,0 +1,6 @@
+<view>
+  <text>id:{{id}}</text>
+  <!-- <text>标题:{{name}}</text>
+  <text>元素:{{element}}</text> -->
+  <text>描述:{{des}}</text>
+</view>
