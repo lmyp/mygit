@@ -1,4 +1,4 @@
-var json = [{
+var jsonb = [{
     "id": 1,
     "title": "日本文学",
     "time": "9月8日"
@@ -21,5 +21,5 @@ var json = [{
   ]
   // 定义数据出口
   module.exports = {
-   List: json
+   Lista: jsonb
   }
