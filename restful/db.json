@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "今天下雨了",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "今天天晴了",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "最美",
+      "id": 2,
+      "postId": "6"
+    },
+    {
+      "body": "dgh",
+      "postId": "4",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "body": "profile body",
+    "id": "1"
+  }
+}
