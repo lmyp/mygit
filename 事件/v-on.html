@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <style>
+        .red {
+            width: 100px;
+           height: 100px;
+            background: green;
+        }
+        .style {
+            background: red;
+        }
+        .class1 {
+            width: 100px;
+           height: 100px;
+            background: green;
+        }
+        </style>
+</head>
+<body>
+    <div id="app">
+                    <p><input type="text" v-model="message"></p>
+                   <p>
+                        <!--click事件直接绑定一个方法-->
+                        <button v-on:click="teng">我</button>
+                    </p>
+                    <p>
+                       <!--click事件使用内联语句-->
+                      <button v-on:click="say('帅！')">帅</button>
+                   </p>
+                   <div v-bind:class="class1"></div>
+    </div>
+    <script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+    <script>
+                 var vm = new Vue({
+                    el: '#app',
+                    data: {
+                        message: 'Hello, Vue.js',
+                        class1: {
+                            // red: true,
+                            // 'style': true,
+                            class1: true
+                        }
+                    },
+                   
+                     methods: {
+                         teng: function() {
+                         
+                             alert(this.message)
+                         },
+                         say: function(msg) {
+                            alert(msg)
+                         }
+                    }
+                })
+            </script>
+</body>
+</html>
