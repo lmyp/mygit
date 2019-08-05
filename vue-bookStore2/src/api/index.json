@@ -1,0 +1,339 @@
+{
+    "errno":0,
+    "citys": [
+      {
+        "id": "1",
+        "name": "江西",
+        "company": "南昌"
+      },
+      {
+        "id": "2",
+        "name": "广东",
+        "company": "深圳"
+      },
+      {
+        "id": "3",
+        "name": "湖北",
+        "company": "武汉"
+      },
+      {
+        "id": "4",
+        "name": "福建",
+        "company": "厦门"
+      }
+    ],
+    "promotions": [
+        {
+          "id": "1",
+          "title": "斗罗大陆之绝世唐门",
+          "authors": "唐家三少",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2179380%2F2179380_a7f807b66df347b3a2556c7571658de0.jpg%2F"
+        },
+        
+        {
+          "id": "2",
+          "title": "斗罗大陆之龙王传说",
+          "authors": "唐家三少",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2242056%2F2242056_789f2205d2104db98b1bf5e0a6a332a2_default_cover.png%2F"
+        },
+        
+        {
+          "id": "3",
+          "title": "斗罗大陆外传神界传说",
+          "authors": "唐家三少",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2282371%2F2282371_c589c591894b4399b33c931b5d79c2ad.jpg%2F"
+        },
+        
+        {
+          "id": "4",
+          "title": "斗罗大陆前传",
+          "authors": "唐家三少",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F685056%2F_685056_094446.jpg%2F"
+        },
+        {
+          "id": "5",
+          "title": "斗罗大陆之黄金圣龙",
+          "authors": "唐家三少",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3355076%2F3355076_e646bd5ff3e2416fa90cab6a418645c9.jpg%2F"
+        },
+        
+        {
+          "id": "6",
+          "title": "斗罗大陆之王者归来",
+          "authors": "唐家三少",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3312348%2F3312348_5b7a380df5964732a5697e57a14e9949.png%2F"
+        },
+        {
+          "id": "7",
+          "title": "仙女没良心",
+          "authors": "唐家三少",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2107590%2F2107590_718bb20f6bba4ee2910cf30d51882112.jpg%2F"
+          
+        },
+        {
+          "id": "8",
+          "authors": "随散飘风",
+          "title": "踏星",   
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2214174%2F2214174_680b08d3d13a428bb7bb5dcb6087287e.jpg%2F"
+        },
+        {
+          "id": "9",
+          "title": "沙海I",
+          "authors": "南派三叔",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2607476%2F2607476_4387c86831ac40d5855139865442b766.jpg%2F"
+        },
+        {
+          "id": "10",
+          "title": "仙侠武侠",
+          "authors": "南派三叔",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F883118%2F883118_f9da23aeea894d9ea409f2112ae311a5.jpg%2F"
+        },
+        {
+          "id": "11",
+          "title": "只想爱着你",    
+          "authors": "姜小牙",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3353595%2F3353595_2c886b4d8c4344f3ad199c3f98add265.jpg%2F"
+        },
+        {
+          "id": "12",
+          "title": "百炼成神",        
+          "authors": "恩赐解说",
+          "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3348284%2F3348284_d95a1517df8f49b1afe9b9abeaf92621.jpg%2F"
+        }
+     
+    ],
+    "freeList": [
+      {
+        "id": "1",
+        "title": "时间都知道",
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F903436%2F903436_36333756e47c4ba4bfe1004af25d4e92.jpg%2F"
+      },
+      {
+        "id": "2",
+        "title": "元尊",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2107590%2F2107590_718bb20f6bba4ee2910cf30d51882112.jpg%2F"
+      },
+      {
+        "id": "3",
+        "title": "斗罗大陆",
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2179380%2F2179380_a7f807b66df347b3a2556c7571658de0.jpg%2F"
+      },
+      {
+        "id": "4",
+        "title": "九阳丹神",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F80451%2F_80451_499862.jpg%2F"
+      },
+      {
+        "id": "5",
+        "title": "超级黄金指",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F41496%2F41496_ed462d6cf52a454c85d9e36452abf57b.jpg%2F"
+      },
+      {
+        "id": "6",
+        "title": "武逆",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F685499%2F685499_c37536df0fcd47aabad39bb84dce2486.jpg%2F"
+      }
+
+    ],
+    "Ranking": [
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F1174012%2F1174012_3851f6511e67418c8ec4382eb8b544f5.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2412138%2F2412138_6f3f581178874e8981e81e38bb671dc0.jpg%2F",
+        "title2": "天价宠妻",
+        "title": "天骄战纪"
+      },
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F683291%2F683291_de97b0a7677d406aa5376b2c0e43b95e.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2180247%2F2180247_e01d234b449242f0abd0b7442f86b782.jpg%2F",
+        "title2": "神医嫡女",
+        "title": "武神至尊"
+      },
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2227162%2F2227162_2c43956a924d4790b2f37a26e760a2d1.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3340938%2F3340938_39f4464009534156a3cf86ee511f7034.jpg%2F",
+        "title2": "妈咪快跑",
+        
+        "title": "极品医仙"
+      } 
+    ],
+    "Ranking2": [
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2214942%2F2214942_63dbe559e35b415eb297ec489e0acb8a.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2237723%2F2237723_c1d44ccc278b4e0abd2fc75273425df4.jpg%2F",
+        "title2": "帝国大叔霸道宠",
+        "title": "最强兵王",
+        "author": "杨玄洲",
+        "author2": "云禅",
+        "titleInfo": "在国际暗黑界排名第一的佣兵之王重归都市，见惯铁与火血与沙的他本只想过一段平凡而安逸的日子，然树欲静而风不止。金麟岂是池中物，一遇风云便化龙。既然江湖无处不在，那就凭一双男人的铁拳，开创一个属于自己的崭新时代吧！",
+        "titleInfo2": "大叔有三好，霸道温柔宠妻如宝。他是翻手为云覆手为雨的战家大少，也是神秘的帝国掌权者。然而好不容易养大的小东西却招来无数烂桃花，一门心思想要翻墙。！"
+      },
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F189805%2F189805_fe07e7e83c094fc59d1f43b2206d0b53.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F1074195%2F1074195_4a1eb342936f48e8802d26725dd70d72.jpg%2F",
+        "author": "叶青玄",
+        "author2": "十云",
+        "title2": "火凤凰",
+        "title": "仙蒂重生",
+        "titleInfo": "诸天万界，神魔林立。一代仙帝，转世重生为一个落魄凡人，拳压盖世天骄，剑指诸天道祖，开启一段新的热血征程。手握日月摘星辰，世间无我这般人！这一世，有我无敌",
+        "titleInfo2": "本文已经大结局，放心入坑。穿越醒来，被x了？而且肚子里还多了一个球？一块可权倾天下的玉佩掀起乱世风云，太后宠她无度目的不明，皇帝百般呵护目标不清，庶妹为抢她未婚夫狠毒陷害毁她清白？那她就以牙还牙，以眼还眼，她堂"
+      }
+    ],
+    "Ranking3": [
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F49851%2F_49851_809793.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F992916%2F992916_ac30f5e066744790b21377cae626e743.jpg%2F",
+        "title2": "只想爱着你",
+        "title": "百炼成神",
+        "author": "恩赐解说",
+        "author2": "姜小牙",
+        "titleInfo": "谁都不知道洪荒的由来，乃至更久远的混沌灾难，甚至在混沌聚拢前的生命存在。本书的主人公并不信奉医学的解说，也不沉醉那些教的虚言，只是把灵魂放逐在一片臆想的天空，将碎裂在不同地方的痕迹拼凑，让眼前的梦回到过去的现实，揭露当初。",
+        "titleInfo2": "【同名玛丽苏神剧由朱圣祎、潘子剑、叶小开领衔主演】时小念是一名三流的少女漫画家，她被享誉全球的科技之王宫欧掠去，一再要她交出三年前为他生的宝宝，可时小念表示并不认识他，却被宫欧软禁起来，不断用各种手段逼她交出孩子。重新来寻找她………"
+      },
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2609711%2F2609711_015078a0c6c34b8bb31c833dbf542ce4.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F243028%2F243028_42aad1e3e9a84d6bbf3c5f42155f5df4.jpg%2F",
+        "author": "南派三叔",
+        "author2": "电线",
+        "title2": "香蜜沉沉烬如霜",
+        "title": "沙海I",
+        "titleInfo": "吴邪带着黎簇进入这片诡异的沙漠，寻找死亡之地“古潼京。在途中吴邪、王盟被地底的奇怪生物频频袭击。失去同伴，孤身一人的黎簇在沙漠中遇到了黑眼镜，他们能否能走出一望无垠的沙海，而在前方等待着他们的是……",
+        "titleInfo2": "【杨紫、邓伦倾情出演影视剧原著小说】人气作家电线仙侠五星口碑之作！2018亿万网友期待的影视IP!情似蛊，爱成魔。初次相见，他涅槃重生成为高高在上的火神，而她是被困在水镜里的懵懂葡萄。百年相守，他情根深种，而她自出生服下陨丹，断情弃爱。"
+      },
+      {
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2214942%2F2214942_63dbe559e35b415eb297ec489e0acb8a.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2237723%2F2237723_c1d44ccc278b4e0abd2fc75273425df4.jpg%2F",
+        "author": "随散飘风",
+        "author2": "柳赋雨",
+        "title2": "仙女没良心",
+        "title": "踏星",
+        "titleInfo": "浩瀚宇宙，无尽种族！恢弘战技，十决横空！远古独姓，百强战榜！以我之名，脚踏星空！",
+        "titleInfo2": "家族企业狗带，私生女江梦娴被八万块卖给了一个老光棍做老婆，据说这样可以转运。领证那天，江梦娴见到了自己的‘老公’，肤白美貌九头身，这就是那个三十几岁的……老光棍？吃他的住他的，还花他的钱，如果她不爱他，她的良心会痛。他表示，一直以为你们仙女没有良心。男强女强，无虐绝宠专注虐渣撒狗粮。"
+      }
+    ],
+    "bookClassify":[
+      {
+        "id": "1",
+        "title": "玄幻奇幻",
+        "title2": "婚恋言情",
+        "number": "10335",
+        "number2": "10250",
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2107590%2F2107590_718bb20f6bba4ee2910cf30d51882112.jpg%2F",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2619692%2F2619692_6b62785d4a0644fdb49fd244020b6c98.jpg%2F"
+        
+      },
+      {
+        "id": "2",
+        "title2": "穿越重生",
+        "title": "现代都市",
+        "number": "8269",
+        "number2": "8836",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F1422445%2F1422445_8476052cffe242519ddb7ce65aa5261e.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2214174%2F2214174_680b08d3d13a428bb7bb5dcb6087287e.jpg%2F"
+      },
+      {
+        "id": "3",
+        "title": "悬疑灵异",
+        "title2": "总裁豪门",
+        "number": "3134",
+        "number2": "7736",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3348913%2F3348913_5f773d4e2e09436da1fc644ba99675b9.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2607476%2F2607476_4387c86831ac40d5855139865442b766.jpg%2F"
+      },
+      {
+        "id": "4",
+        "title": "仙侠武侠",
+        "number": "2195",
+        "number2": "2456",
+        "title2": "古代言情",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3349084%2F3349084_9d2f902244ac48d5b56a854edbdd0711.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F883118%2F883118_f9da23aeea894d9ea409f2112ae311a5.jpg%2F"
+      },
+      {
+        "id": "5",
+        "title": "历史架空",
+        "number": "770",
+        "number2": "1561",
+        "title2": "青春校园",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2238344%2F2238344_31646a79a5864b0a99e02210dec2bf5d.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3353595%2F3353595_2c886b4d8c4344f3ad199c3f98add265.jpg%2F"
+      },
+      {
+        "id": "6",
+        "title": "游戏竞技",
+        "number": "2195",
+        "number2": "1756",
+        "title2": "动漫同人",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2240690%2F2240690_9492d2ce8a6949c584baf01f36add8cb.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3348284%2F3348284_d95a1517df8f49b1afe9b9abeaf92621.jpg%2F"
+      },
+      {
+        "id": "7",
+        "title": "科幻末世",
+        "number": "568",
+        "number2": "1180",
+        "title2": "灵异推理",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2241600%2F2241600_0988a87ee4914feabe3a81620ad9b22a.png%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F608116%2F_608116_495132.jpg%2F"
+      },
+      {
+        "id": "8",
+        "title": "动漫同人",
+        "number": "169",
+        "number2": "805",
+        "title2": "玄幻奇幻",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2391638%2F2391638_9e1b5eef75e54fe48145aa5524200cd6.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F608539%2F_608539_721010.jpg%2F"
+      },
+      {
+        "id": "9",
+        "title": "妙趣奇文",
+        "number": "786",
+        "number2": "257",
+        "title2": "仙侠情缘",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3359981%2F3359981_7b23a11beea24aa9902b664974bbc629.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F1466852%2F1466852_80c27e09efd7488b9be0820132ea2303.jpg%2F"
+      },
+      {
+        "id": "10",
+        "title": "军事战争",
+        "number": "414",
+        "number2": "456",
+        "title2": "魔幻情缘",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2208957%2F2208957_05c5e535fe9444dda716f38b1aa54fcb.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2029307%2F2029307_7e2c21cc1e434290ae6d4ec1437c91b7.jpg%2F"
+      },
+      {
+        "id": "11",
+        "title": "外国名著",
+        "number": "725",
+        "number2": "1025",
+        "title2": "幻想异能",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3348804%2F3348804_cc6436e55be64bd2a7243223d755fa40.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2233462%2F2233462_4ee1de9abec74b5f807d9ba31d8e8175.png%2F"
+      },
+      {
+        "id": "12",
+        "title": "古典文学",
+        "number": "675",
+        "number2": "354",
+        "title2": "妙趣奇文",
+        "img_url2": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F2238950%2F2238950_6aec7abb3b4c414ba2cd8f71037b140d.jpg%2F",
+        
+        "img_url": "http://statics.zhuishushenqi.com/agent/http%3A%2F%2Fimg.1391.com%2Fapi%2Fv1%2Fbookcenter%2Fcover%2F1%2F3378310%2F3378310_6ec4d038c1e84305b98ffd4899cabb05.jpg%2F"
+      }
+    ]
+}
