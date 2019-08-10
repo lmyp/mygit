@@ -1,0 +1,59 @@
+{
+  "pages": [  
+    
+    "pages/index/index",
+    "pages/MoreGoods/moregoods",
+    "pages/shopping/shopping",
+    "pages/cart1/cart1",
+    "pages/ceshi/cheshi",
+    "pages/detail/detail",
+    "pages/cart/cart",
+    "pages/search/search",
+    "pages/classify/classify",
+    
+    "pages/crowdfunding/crowdfunding",
+    
+    "pages/mine/mine",
+    "pages/logs/logs"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#845F3F",
+    "navigationBarTitleText": "小米有品",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#515151",
+    "backgroundColor": "#fff",
+    "selectedindex": 1,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index/shouye.png",
+        "selectedIconPath": "images/index/hover-shouye.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "images/index/classifi.png",
+        "selectedIconPath": "images/index/类目.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/index/购物车.png",
+        "selectedIconPath": "images/index/购物.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人",
+        "iconPath": "images/index/mine.png",
+        "selectedIconPath": "images/index/hover-mine.png"
+      }
+    ]
+  }
+}
