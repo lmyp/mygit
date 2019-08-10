@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="content">
+      <view wx:for="{{MoreGoods}}" class="goods-col"  wx:key="{{item}}">
+          <view class="list-item" bindtap="goDetail"  data-aid ="{{item.aid}}" data-index="{{index}}">
+                 
+                     <view class="img">
+                        <image src="{{item.goods_img}}" />
+                    </view>
+                    <view class="info">
+                        <view class="goods_title">{{item.goods_title}}</view>
+                        <view class="goods_title2">{{item.goods_title2}}</view>
+                        <view class="goods_price">{{item.goods_price}}</view>
+                    </view> 
+
+             </view>
+      </view>
+  </view>
+</view>

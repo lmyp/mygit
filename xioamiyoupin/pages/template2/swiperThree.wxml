@@ -1,0 +1,10 @@
+<template name="swiperThree">
+    <view class="swiperThree_content">
+        <view class="swiperThree_headerText">检测报告</view>
+        <view class="swiperThreeImg">
+            <image src="../../images/detail/jian2.jpg" />
+            <image src="../../images/detail/jian3.jpg" />
+            <image src="../../images/detail/jian4.png" />
+        </view>
+    </view>
+</template>

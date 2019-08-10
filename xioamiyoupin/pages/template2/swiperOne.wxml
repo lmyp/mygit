@@ -1,0 +1,11 @@
+<template name="swiperOne">
+    <view class="swiperOne_content">
+        <view class="swiperOneImg">
+            <image src="https://img11.360buyimg.com/imgzone/jfs/t1/2567/20/6278/111092/5ba249f2E4944f485/50648559d3cfabd0.jpg" />
+            <image src="https://img11.360buyimg.com/imgzone/jfs/t1/4680/35/6329/234718/5ba249f2E45989302/14953b5113cbe20d.jpg" />
+            <!-- <image src="https://img14.360buyimg.com/imgzone/jfs/t1/1622/17/6127/261117/5ba249f2E780a8402/2cbe7f5fe509b49e.jpg" /> -->
+            <!-- <image src="../../images/detail/3c7fcc91e2fc08bd9c21ae148e2e3573.jpg" /> -->
+            <!-- <image src="../../images/detail/de82ddf7c95bcc270934229c50b10d59.jpg" /> -->
+        </view>
+    </view>
+</template>

@@ -1,0 +1,53 @@
+<view class="container">
+    <view class="section searchBar">
+		<view class="section searBar-box {{isTap?'tap':''}}">
+			<image src="../../images/index/search.png" mode="aspectFill" class="search-icon" />
+			<input type="text" name="searchBar" disabled="true" placeholder="搜索商品" placeholder-class="search-plac" bindtap="toSearch"
+			/>
+		</view>
+	</view>
+    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+        <block wx:for="{{swiperImgUrls}}" wx:key="{{index}}">
+            <swiper-item >
+                <image src="{{item}}" class="swiper_img" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="menu_container">
+            <view wx:for="{{menus}}" wx:key="{{index}}" class="menu_item">
+                <image src="{{item.img}}" class="menu_icon" />
+                <text class="menu_name">{{item.theme}}</text>
+            </view>
+    </view>
+    <view class="bd-img">
+        <image src="../../images/index/xin.png" style="height: 160rpx; width:100%;" />
+    </view>
+    <view class="bd-content">
+        <navigator url="../crowdfunding/crowdfunding" hover-class="navigator-hover">
+            <view class="bd-content_title">小米众筹</view>
+            <view class="bd-content_more">更多</view>
+            <text class="fuhao"></text>
+        </navigator>
+       
+        <view class="bd-goods">
+            <image src="../../images/index/IMG_20190608_212458.jpg" />
+            <view class="bd-goods_title">左点无线智能艾灸盒2代</view>
+            <view class="bd-goods_title1">无线便携，智能温控，智能热敷</view>
+            <view class="bd-goods_title2">￥289</view>
+            <view class="bd-goods_title3"><text class="bd-goods_title4">9540</text>/1000人支持<text class="bd-goods_title5">爆</text></view>
+            <view class="bd-goods_title6">954%</view>
+        </view>
+        
+    </view>
+    <view class="fd-content">
+        <view class="fd-content_title">今日有品</view>
+        <view class="fd-content_more" bindtap="TomoreDetail">更多</view>
+        <text class="fuhao"></text>
+        <include src="../template2/todayGoods.wxml" />
+         <!-- <view class="weui-loadmore" hidden="{{isHideLoadMore}}">
+            <view class="weui-loading"></view>
+            <view class="weui-loadmore__tips">正在加载</view>
+        </view> -->
+    </view>
+    
+</view>

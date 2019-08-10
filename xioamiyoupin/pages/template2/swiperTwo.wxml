@@ -1,0 +1,25 @@
+<template name="swiperTwo" >
+    <view class="swiperTwo_content">
+        <view class="swiperTwo_headerText">常见问题</view>
+        <view class="sameText">洗涤方式</view>
+            <view class="sameText2">建议常规洗涤水温不超过40度，平铺晾干，可以熨烫，不可漂白、干洗</view>
+        <view class="sameText">关于尺码表</view>
+            <view class="sameText2">尺码仅供参考，因裁剪工艺和测量方式方法不同，可能存在1-2CM左右误差</view>
+        <view class="sameText">关于退换货?</view>
+        <view class="sameText2">
+            <view >1、根据国家相关法律法规，商品在吊牌未拆，配件齐全，不影响
+                商品完好的情况下，自收货之日起7日无理由退货款，15天内质量问题免运费换货。
+            </view>
+            <view >2、退还商品 请保持外观完好无损。非质量问题的退换货，退回运费有顾客承担，
+                再次发货邮费由商家承担</view>
+            <view >3、如有发票和赠品，请一并寄回，如有遗失，则按市场低价扣</view>
+        </view>
+        <view class="sameText">客服联系方式</view>
+            <view class="sameText2">
+                <view >客服电话: 400-1818-835</view>
+                <view >电话客服: 9:00-19:00</view>
+                <view >在线客服: 9:00-22:00</view>
+                <view >注: 节假日不休息(春节除外)</view>
+            </view>
+    </view>
+</template>

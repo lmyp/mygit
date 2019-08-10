@@ -1,0 +1,151 @@
+<view class="container">
+      <scroll-view scroll-y="true" style=" height:100%">
+        <swiper class="swiper" indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+            <block wx:for="{{swiperImgUrls}}" wx:key="{{index}}">
+                <swiper-item >
+                    <image src="{{item}}" class="swiperImg" />
+                </swiper-item>
+            </block>
+        </swiper>
+      
+        <view class="page__bd">
+        <view class="page__bd__title">
+           <view class="detail">
+            <view class="title">LANCOME兰蔻小黑瓶精华肌底液</view>
+            <view class="title2">减压神器，趣味击打游戏</view>
+            <view class="price">￥399</view>
+          </view>
+        </view>
+        <view class="page__bd__title2"> 
+          <view class="page__bd__content">
+            <image src="../../images/detail/xiaomi.png" />
+              <text class="page__bd__content__left">小米有品</text>
+              <text class="page__bd__content__center">|</text>
+              <text class="page__bd__content__right">有品质，放心买!</text>
+          </view>
+        </view>
+
+        <view class="page__bd__title3">
+          <view class="page__bd__title3__content">
+              <image src="../../images/detail/红包.png" />
+              <text class="page__bd__title3__hb">新人领180元红包</text>
+              <text class="page__bd__title3__right">></text>
+          </view>
+        </view>
+  
+        <view class="page__bd__title4">
+          <view class="page__bd__title4_content">
+          <view class="title4_content__left">服务:</view>
+             
+          <view class="title4_content__imgurls">
+            <view >
+              <image src="../../images/detail/圆勾.png" style="width: 30rpx; height:30rpx;" />
+              <text >满99包邮</text>
+            </view>
+            <view >
+              <image src="../../images/detail/圆勾.png" style="width: 30rpx; height:30rpx;" />
+              <text >满99包邮</text>
+            </view>
+            <view >
+              <image src="../../images/detail/圆勾.png" style="width: 30rpx; height:30rpx;" />
+              <text >满99包邮</text>
+            </view>
+            </view>
+            <view class="title4_content__right">></view>
+            </view>
+               
+            </view>
+       
+    
+        <view class="page__bd__title5">
+                <view class="page__bd__title5__content">
+                  <view>
+                   <image src="../../images/detail/红包.png" style="width: 120rpx; height:120rpx;" />
+                  </view>
+                  <view class="title5_right">
+                      <view style="padding-top:5rpx;">Move it</view>
+                      <view >你的专属智能健身教练</view>
+                  </view>
+                </view>
+                <!-- <view class="weui-cell__ft">说明文字</view> -->
+         </view> 
+         <view class="page__bd__title6">
+           <view class="page__bd__title6__content">
+              <text class="title6__content__left">用户评价:</text>
+              <image src="../../images/detail/圆勾.png" style="width: 30rpx; height:30rpx;" />
+              <text class="title6__content__right">100条评论</text>
+              <text class="title6__content__right2">></text>
+           </view>
+         </view>
+         <view class="page__bd__title7">
+           <view class="page__bd__title7__content">
+             <view class="title7__content__top">
+               <view class="title7__top__pic">
+                 <image src="../../images/index/a01.png" />
+               </view>
+               <view class="title7__top__right">
+                 <view class="right__number1">2****894</view>
+                 <view class="right__number2">15597894</view>
+               </view>
+             </view>
+             <view class="title7__content__bottom">
+                 <view class="title7__bottom__text">送人头好撒啊额我I家啊哦人
+                   但今天有你大爷阿热啊啊额哇哦人噶额不啊人哇</view>
+            </view>
+           </view>
+         </view>
+
+        
+    </view>
+  
+    <view class="navbar">
+      <view class="navbarType" style="height:100%">
+        <view class="{{currentTab==0 ? 'select' : 'default'}}" data-current="0"  bindtap="switchNav" >产品介绍</view>
+        <view class="{{currentTab==1 ? 'select' : 'default'}}" data-current="1"  bindtap="switchNav" >常见问题</view>
+        <view class="{{currentTab==2 ? 'select' : 'default'}}" data-current="2"  bindtap="switchNav" >检测报告</view>
+      </view>
+    </view>
+    
+   
+
+ 
+     <swiper current="{{currentTab}}" style="height: 1200rpx;" >
+      <swiper-item >
+        <scroll-view scroll-y="true" style="height:100%">
+        <import src="../template/swiperOne.wxml" />
+        <template is="swiperOne"> </template>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item >  
+        <scroll-view scroll-y="true" style="height:100%">
+        <import src="../template/swiperTwo.wxml" />
+        <template is="swiperTwo" ></template>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item >
+         <scroll-view scroll-y="true" style="height:100%">
+        <import src="../template/swiperThree.wxml" />
+        <template is="swiperThree"> </template>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+     </scroll-view>
+        <!-- <text>{{xiangqing}}</text> -->
+        
+<!-- 底部悬浮栏 -->
+<view class="detail-nav">
+  <view class="detail-nav_img" bindtap="toIndex">
+    <image src="../../images/detail/shouye.png" />
+    <view >首页</view>
+  </view>
+  
+  <view class="detail-nav_img2" bindtap="toShopping">
+    <image src="../../images/detail/购物车.png" />
+    <view >购物车</view>
+  </view>
+  
+  <button class="button-green" bindtap="addCar" formType="submit">加入购物车</button>
+  <button class="button-red" bindtap="immeBuy" formType="submit">立即购买</button>
+</view>
+</view>
+

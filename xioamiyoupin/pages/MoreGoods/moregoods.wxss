@@ -1,0 +1,50 @@
+/* pages/MoreGoods/moregoods.wxss */
+page {
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    display: inline-block;
+    display: flex;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+}
+.goods-col {
+    width: 50%;
+    
+    /* margin-right: 25rpx; */
+}
+.list-item {
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+.img {
+    display: flex;
+}
+.img image {
+    display: inline-block;
+    height: 200rpx;
+    width: 200rpx;
+    margin: auto;
+    padding-top: 40rpx;
+    /* padding-left: 30rpx; */
+    /* transform: translate(15%) */
+}
+.info {
+    margin-top: 40rpx;
+    margin-bottom: 25rpx;
+    text-align: center;
+}
+.goods_title {
+    font-size: 30rpx;
+    color: #3c3c3c;
+}
+.goods_title2 {
+    font-size: 30rpx;
+    color: #a39b9ba4;
+    padding: 25rpx 0 20rpx 0;
+}
+.goods_price {
+    font-size: 30rpx;
+    color: #b60909;
+}

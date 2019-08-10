@@ -1,0 +1,17 @@
+<view class="goods">
+    <block wx:for="{{goodsLists}}" wx:key="{{index}}">
+    <navigator url="../detail/detail">
+        <view class="goodsContent">
+            <view class="pic">
+                <image src="{{item.goodsImg}}" />
+            </view>
+            <view >
+                <view class="goodsTitle">{{item.shopTitle}}</view>
+                <view class="goodsDescribe">{{item.shopDescribe}}</view>
+                <view class="goodsPrice">￥{{item.shopPrice}}</view>
+            </view>
+        </view>
+        </navigator>
+    </block>
+    
+</view>

@@ -1,0 +1,50 @@
+<view class="container">
+    <view class="hd-bgc">
+        <image src="../../images/index/a.png" />
+    </view>
+    <view class="hdpic">
+        <view >
+            <image class="headerImg" src="../../images/index/zhouchou.png" />
+        </view>
+        <view class="hdpic-title">
+            <image class="hdpic-title_Img" src="../../images/index/aijiu.png" />
+            <view class="hdpic-title_right">
+                <view class="right-title">左点小艾2代无线智能艾灸盒</view>
+                <view class="right-title1">
+                    <!-- <progress percent="1632" color="#f27a57" active style="width:200rpx;"/> -->
+                    <text  class="right-title1_process"></text>
+                    <image class="right-title1_pic" src="../../images/index/火.png" />
+                    <text style="color: #a92112; font-size: 30rpx">1632%</text>
+                </view>
+                <view class="right-title2">1.2万人支持</view>
+                <view class="right-title3">￥289</view>
+            </view>
+        </view>
+    </view>
+    <view class="CrowdContent">
+        <view class="crowdHeader">正在众筹</view>
+        <view class="crowdHeader2">寻觅世间4款好物,只为精致你的生活</view>
+        <view wx:for="{{Crowded}}" wx:key="{{index}}" class="crowded-title">
+            <text class="baopin">爆品</text>
+            <image class="crowded-title_Img" src="{{item.title_Img}}" />
+            <view class="crowded-title_right">
+                <view class="crowded-right_title">{{item.right_title}}</view>
+                <view class="crowded-right_title1">
+                    <text  class="crowded-right-title1_process"></text>
+                    <image class="crowded-right-title1_pic" src="{{item.right_title1_pic}}" />
+                    <text style="color: #a92112; font-size: 30rpx">{{item.number}}</text>
+                </view>
+                <view class="crowded-right-title2">{{item.right_title2}}</view>
+                <view class="crowded-right-title3">{{item.price}}
+                    <text class="crowded-right-title4">{{item.right_title4}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="button">
+        <view class="button-content">
+            <image src="../../images/index/时钟.png" />
+            <text class="button-content_title">查看往期众筹</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,77 @@
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block  wx:else>
+      <!-- <view class="header"> -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <!-- </view> -->
+    </block>
+  </view>
+    <view class="pic3"><image src="../../images/index/xin.png" style="height: 160rpx; width:100%;" /></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">我的订单</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">优惠券</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">特权购</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">拼团</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">收货地址</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">关于我们</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">资质证照</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="item">
+        <view class="pic"><image src="../../images/mine.png" style="width: 15px; height: 15px;" /></view>
+        <view class="order">协议规则</view>
+        <view class="detail2">
+            <text > > </text>
+        </view>
+    </view>
+    <view class="hr"></view>
+    <view class="pic3"><image src="../../images/index/xia.png" style="height: 120rpx; width:100%;" /></view>
+</view>
